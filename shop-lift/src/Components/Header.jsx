@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
-export default function Header(){
-    return(
-        <>
-        <div className='text-blue-500 bg-yellow-500'>Hello World</div>
-        </>
-    );
+export default function Header() {
+  return (
+    
+      <div div className="w-[1374.8px] h-[359.1px] ml-4 mr-4 bg-[#f5bcbc]">
+
+      </div>
+    
+  );
 }
