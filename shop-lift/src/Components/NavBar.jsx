@@ -9,7 +9,7 @@ export default function NavBar() {
   const navigate = useNavigate();
 
   return (
-  <meta name="viewpoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <nav>
       <div className="w-full h-26 mb-280 p-[16px_81px_16px_83px] bg-[#efefef] flex flex-row justify-between items-center">
         <div className="w-auto h-[64px] flex flex-row justify-center items-center gap-[10px] p-[10px] rounded-[20px] border border-solid border-[1px] border-[#000]">
