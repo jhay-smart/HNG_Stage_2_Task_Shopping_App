@@ -42,7 +42,7 @@ export default function NavBar() {
           </span>
         </div>
         <div 
-        onClick={() => navigate('/')}
+        onClick={() => navigate('/cart')}
         className="w-auto h-[44px] flex-grow-0 flex flex-row justify-between items-center p-[10px_12px]">
           <FaShoppingCart className="w-[20px] h-[20px] flex-grow-0" />
           <span className="w-auto h-[24px] flex-grow-0 font-inter text-xl font-normal text-center text-black mx-[10px]">
