@@ -41,7 +41,10 @@ function Cart() {
                   <p>+</p>
                 </div>
               </div>
-              <button onClick={() => navigate('/payment')}className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+              <button
+                onClick={() => navigate("/payment")}
+                className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded"
+              >
                 Proceed to Checkout
               </button>
             </div>
@@ -69,7 +72,6 @@ function Cart() {
           <span>7 Abiokuta Street, Bengola Creseent Auja, Nigeria</span>
           <br />
           <button
-          
             style={{
               backgroundColor: "red",
               color: "white",
