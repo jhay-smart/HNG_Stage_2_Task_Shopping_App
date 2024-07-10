@@ -9,7 +9,7 @@ import Payment from "./Pages/Payment";
 
 function App() {
   return (
-    <div>
+    <div >
       <BrowserRouter>
         <Routes>
           <Route path="/" index element={<ShopHomePage />} />
